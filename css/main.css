@@ -576,6 +576,40 @@ img {
   color: #fff;
 }
 
+.service-single-sec {
+  padding-top: 100px;
+}
+@media (max-width: 991px) {
+  .service-single-sec {
+    padding-top: 50px;
+  }
+}
+
+.service-single-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-single-text {
+  font-size: 16px;
+  color: #394444;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-top: 40px;
+}
+.service-single-text p:last-of-type {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .service-single-text {
+    padding-top: 20px;
+    text-align: justify;
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
+}
+
 .projects-slider {
   position: relative;
   padding: 0 50px;
@@ -724,6 +758,40 @@ img {
 }
 .project-item:hover img {
   transform: scale(1.05) rotate(2.5deg);
+}
+
+.project-single-sec {
+  padding-top: 100px;
+}
+@media (max-width: 991px) {
+  .project-single-sec {
+    padding-top: 50px;
+  }
+}
+
+.project-single-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-single-text {
+  font-size: 16px;
+  color: #394444;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-top: 40px;
+}
+.project-single-text p:last-of-type {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .project-single-text {
+    padding-top: 20px;
+    text-align: justify;
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
 }
 
 .contact-grid {
@@ -1108,8 +1176,14 @@ header {
   background-position: center;
   position: relative;
   transform: perspective(1px);
+  text-align: center;
   padding: 40px 15px;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .breadcrumb-sec {
+    padding: 25px 15px;
+  }
 }
 .breadcrumb-sec::after {
   background-color: #394444;
@@ -1132,6 +1206,7 @@ header {
 @media (max-width: 767px) {
   .page-title {
     font-size: 26px;
+    margin: 0;
   }
 }
 
@@ -1140,6 +1215,11 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0;
+}
+@media (max-width: 767px) {
+  .breadcrumb-list {
+    display: none;
+  }
 }
 .breadcrumb-list li {
   display: flex;
