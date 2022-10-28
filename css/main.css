@@ -106,6 +106,15 @@ img {
   }
 }
 
+.content {
+  padding-bottom: 75px;
+}
+@media (max-width: 767px) {
+  .content {
+    padding-bottom: 40p;
+  }
+}
+
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat/Montserrat-Arabic-Thin.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Arabic-Thin.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Arabic-Thin.ttf") format("truetype");
@@ -648,6 +657,24 @@ img {
   left: auto;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 15px;
+  padding: 0 50px;
+}
+@media (max-width: 1199px) {
+  .projects-grid {
+    padding: 0;
+  }
+}
+@media (max-width: 991px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 .project-item {
   padding-bottom: 64.656964657%;
   position: relative;
@@ -1070,6 +1097,69 @@ header {
   .menu-btn {
     display: flex;
   }
+}
+
+.breadcrumb-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transform: perspective(1px);
+  padding: 40px 15px;
+  color: #fff;
+}
+.breadcrumb-sec::after {
+  background-color: #394444;
+  opacity: 0.75;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 23px;
+}
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 26px;
+  }
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.breadcrumb-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumb-list li ~ li::before {
+  content: "/";
+  font-size: 14px;
+  color: #fff;
+  margin: 0 10px;
+}
+.breadcrumb-list a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumb-list a:hover {
+  color: #c01d2b;
 }
 
 .sec-head {
