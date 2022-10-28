@@ -1,0 +1,8 @@
+<svg id="glass" xmlns="http://www.w3.org/2000/svg" width="39.389" height="39.389" viewBox="0 0 39.389 39.389">
+  <path id="Vector" d="M0,0H6.565" transform="translate(16.412 28.721)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-2" data-name="Vector" d="M0,24.618V8.206C0,1.641,1.641,0,8.206,0" transform="translate(3.282 4.103)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-3" data-name="Vector" d="M8.206,24.618V8.206C8.206,1.641,6.565,0,0,0" transform="translate(27.901 4.103)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-4" data-name="Vector" d="M13.13,4.6v5.4c0,3.282-1.313,4.6-4.6,4.6H4.6c-3.282,0-4.6-1.313-4.6-4.6V4.6C0,1.313,1.313,0,4.6,0H8.534C11.817,0,13.13,1.313,13.13,4.6Z" transform="translate(3.282 21.516)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-5" data-name="Vector" d="M13.13,4.6v5.4c0,3.282-1.313,4.6-4.6,4.6H4.6c-3.282,0-4.6-1.313-4.6-4.6V4.6C0,1.313,1.313,0,4.6,0H8.534C11.817,0,13.13,1.313,13.13,4.6Z" transform="translate(22.977 21.516)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-6" data-name="Vector" d="M0,0H39.389V39.389H0Z" fill="none" opacity="0"/>
+</svg>

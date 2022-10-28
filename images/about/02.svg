@@ -1,0 +1,6 @@
+<svg id="sms-notification" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <path id="Vector" d="M36.667,12.833V22c0,6.417-3.667,9.167-9.167,9.167H9.167C3.667,31.167,0,28.417,0,22V9.167C0,2.75,3.667,0,9.167,0H22" transform="translate(3.667 6.417)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0,5.738,4.583a5.8,5.8,0,0,0,6.875,0L14.777,2.86" transform="translate(12.833 16.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-3" data-name="Vector" d="M9.167,4.583A4.583,4.583,0,1,1,4.583,0,4.583,4.583,0,0,1,9.167,4.583Z" transform="translate(31.167 5.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H44V44H0Z" fill="none" opacity="0"/>
+</svg>

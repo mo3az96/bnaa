@@ -1,0 +1,7 @@
+<svg id="ranking" xmlns="http://www.w3.org/2000/svg" width="39.337" height="39.337" viewBox="0 0 39.337 39.337">
+  <path id="Vector" d="M10.932,0H3.278A3.288,3.288,0,0,0,0,3.278v9.834H10.932Z" transform="translate(3.278 22.947)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-2" data-name="Vector" d="M7.654,0H3.278A3.288,3.288,0,0,0,0,3.278v16.39H10.932V3.278A3.277,3.277,0,0,0,7.654,0Z" transform="translate(14.194 16.39)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-3" data-name="Vector" d="M7.654,0H0V8.2H10.932V3.278A3.288,3.288,0,0,0,7.654,0Z" transform="translate(25.126 27.864)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-4" data-name="Vector" d="M5.779.7l.869,1.737a.991.991,0,0,0,.688.508l1.573.262c1,.164,1.246.9.524,1.606L8.205,6.042a1.047,1.047,0,0,0-.262.885l.344,1.508c.279,1.2-.361,1.655-1.41,1.033L5.4,8.6a1.012,1.012,0,0,0-.967,0L2.96,9.468c-1.049.623-1.688.164-1.41-1.033l.344-1.508a1.032,1.032,0,0,0-.262-.885L.42,4.829C-.3,4.108-.072,3.387.944,3.223l1.573-.262a1.092,1.092,0,0,0,.688-.508L4.075.715C4.55-.236,5.3-.236,5.779.7Z" transform="translate(14.741 2.694)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+  <path id="Vector-5" data-name="Vector" d="M0,0H39.337V39.337H0Z" fill="none" opacity="0"/>
+</svg>
