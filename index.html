@@ -129,16 +129,20 @@
     <section class="about-sec">
       <div class="pattern-square"></div>
       <div class="container">
-        <h3 class="sec-head">من نحن</h3>
+        <h3 class="sec-head" data-sal="slide-up">من نحن</h3>
         <div class="about-grid">
           <div class="about-img-cont">
             <div class="about-img-pattern"></div>
             <div
               class="about-img"
-              style="background-image: url(images/about/main.jpg)"
+              style="
+                background-image: url(images/about/main.jpg);
+                --sal-delay: 0.2s;
+              "
+              data-sal="zoom-in"
             ></div>
           </div>
-          <div class="about-text">
+          <div class="about-text" data-sal="slide-up" style="--sal-delay: 0.4s">
             <p>
               نظرا للتوسع الكبير في أعمال اإلنشاءات والطرق بالمملكة
               العربيةالسعودية وخاصة بمكة المكرمة والمشاعر المقدسة وترافق ذلك مع
@@ -163,7 +167,7 @@
       <div class="pattern-square"></div>
       <div class="container">
         <div class="feats-cont">
-          <div class="feat">
+          <div class="feat" data-sal="flip-up">
             <div class="feat-icon">
               <img src="images/about/01.svg" class="img-fluid" />
             </div>
@@ -174,7 +178,7 @@
               اإلنجاز
             </p>
           </div>
-          <div class="feat">
+          <div class="feat" data-sal="flip-up" style="--sal-delay: 0.2s">
             <div class="feat-icon">
               <img src="images/about/02.svg" class="img-fluid" />
             </div>
@@ -185,7 +189,7 @@
               والحرجة في مختلف المجاالت واألماكن
             </p>
           </div>
-          <div class="feat">
+          <div class="feat" data-sal="flip-up" style="--sal-delay: 0.4s">
             <div class="feat-icon">
               <img src="images/about/03.svg" class="img-fluid" />
             </div>
@@ -206,9 +210,13 @@
     <!-- Start Services -->
     <section class="services-sec">
       <div class="container">
-        <h3 class="sec-head">خدماتنا</h3>
+        <h3 class="sec-head" data-sal="slide-up">خدماتنا</h3>
         <div class="services-grid">
-          <div class="service-item">
+          <div
+            class="service-item"
+            data-sal="slide-down"
+            style="--sal-delay: 0.2s"
+          >
             <a href="service.html" class="service-img">
               <img src="images/services/01.jpg" class="img-fluid" />
             </a>
@@ -230,7 +238,11 @@
               <a href="service.html" class="service-link">عرض المزيد</a>
             </div>
           </div>
-          <div class="service-item">
+          <div
+            class="service-item"
+            data-sal="slide-down"
+            style="--sal-delay: 0.4s"
+          >
             <a href="service.html" class="service-img">
               <img src="images/services/02.jpg" class="img-fluid" />
             </a>
@@ -252,7 +264,11 @@
               <a href="service.html" class="service-link">عرض المزيد</a>
             </div>
           </div>
-          <div class="service-item">
+          <div
+            class="service-item"
+            data-sal="slide-down"
+            style="--sal-delay: 0.6s"
+          >
             <a href="service.html" class="service-img">
               <img src="images/services/03.jpg" class="img-fluid" />
             </a>
@@ -274,7 +290,11 @@
               <a href="service.html" class="service-link">عرض المزيد</a>
             </div>
           </div>
-          <div class="service-item">
+          <div
+            class="service-item"
+            data-sal="slide-down"
+            style="--sal-delay: 0.4s"
+          >
             <a href="service.html" class="service-img">
               <img src="images/services/04.jpg" class="img-fluid" />
             </a>
@@ -296,7 +316,11 @@
               <a href="service.html" class="service-link">عرض المزيد</a>
             </div>
           </div>
-          <div class="service-item">
+          <div
+            class="service-item"
+            data-sal="slide-down"
+            style="--sal-delay: 0.2s"
+          >
             <a href="service.html" class="service-img">
               <img src="images/services/05.jpg" class="img-fluid" />
             </a>
@@ -318,7 +342,7 @@
               <a href="service.html" class="service-link">عرض المزيد</a>
             </div>
           </div>
-          <div class="service-item">
+          <div class="service-item" data-sal="slide-down">
             <a href="service.html" class="service-img">
               <img src="images/services/06.jpg" class="img-fluid" />
             </a>
@@ -348,12 +372,17 @@
     <!-- Start Projects -->
     <section class="projects-sec">
       <div class="container">
-        <h3 class="sec-head">مشاريعنا</h3>
+        <h3 class="sec-head" data-sal="slide-up">مشاريعنا</h3>
         <div class="projects-slider">
           <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <a href="project.html" class="project-item">
+                <a
+                  href="project.html"
+                  class="project-item"
+                  data-sal="zoom-in"
+                  style="--sal-delay: 0.2s"
+                >
                   <img src="images/projects/01.jpg" class="img-fluid" />
                   <div class="project-text">
                     <h4 class="project-name">فندق رومين لايت بالحي الشرقي</h4>
@@ -371,7 +400,12 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="project.html" class="project-item">
+                <a
+                  href="project.html"
+                  class="project-item"
+                  data-sal="zoom-in"
+                  style="--sal-delay: 0.4s"
+                >
                   <img src="images/projects/02.jpg" class="img-fluid" />
                   <div class="project-text">
                     <h4 class="project-name">المبنى التجاري الدولي</h4>
@@ -424,32 +458,44 @@
     <!-- Start Contact -->
     <section class="contact-sec">
       <div class="container">
-        <h3 class="sec-head">تواصل معنا</h3>
+        <h3 class="sec-head" data-sal="slide-up">تواصل معنا</h3>
         <div class="contact-grid">
           <div class="contact-form">
             <form>
-              <div class="contact-group">
+              <div class="contact-group" data-sal="slide-down">
                 <input
                   type="text"
                   class="contact-control"
                   placeholder="الاسم بالكامل"
                 />
               </div>
-              <div class="contact-group">
+              <div
+                class="contact-group"
+                data-sal="slide-down"
+                style="--sal-delay: 0.2s"
+              >
                 <input
                   type="text"
                   class="contact-control"
                   placeholder="البريد الإلكتروني / رقم الجوال"
                 />
               </div>
-              <div class="contact-group">
+              <div
+                class="contact-group"
+                data-sal="slide-down"
+                style="--sal-delay: 0.4s"
+              >
                 <input
                   type="text"
                   class="contact-control"
                   placeholder="عنوان الرسالة"
                 />
               </div>
-              <div class="contact-group">
+              <div
+                class="contact-group"
+                data-sal="slide-down"
+                style="--sal-delay: 0.6s"
+              >
                 <textarea
                   class="contact-control"
                   placeholder="عنوان الرسالة"
@@ -458,11 +504,11 @@
               <button class="contact-btn">إرســال</button>
             </form>
           </div>
-          <div class="contact-img">
+          <div class="contact-img" data-sal="zoom-in">
             <img src="images/contact.svg" class="img-fluid" />
           </div>
         </div>
-        <div class="methods-grid">
+        <div class="methods-grid" data-sal="slide-down">
           <a href="tel:+96652520580" class="method-link">
             <div class="method-cont">
               <div class="contact-pattern">
@@ -502,7 +548,7 @@
         <img src="images/footer.svg" class="img-fluid" />
       </div>
       <div class="container">
-        <div class="footer">
+        <div class="footer" data-sal="slide-up">
           <ul class="footer-list list-unstyled">
             <li><a href="index.html" class="footer-link">الرئيسية</a></li>
             <li><a href="about.html" class="footer-link">من نحن</a></li>

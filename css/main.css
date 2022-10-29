@@ -1,3 +1,7 @@
+:root {
+  --sal-duration: 1s;
+}
+
 @-webkit-keyframes vibe {
   0%, 100% {
     transform: translateY(0);
@@ -12,6 +16,7 @@
     transform: translateY(-4px);
   }
 }
+
 @keyframes vibe {
   0%, 100% {
     transform: translateY(0);

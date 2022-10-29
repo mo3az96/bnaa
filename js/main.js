@@ -2,6 +2,9 @@ $(window).on("load", function () {
   $("body").removeClass("overflow");
 });
 $(document).ready(function () {
+  sal({
+    once: true,
+  });
   /***** main slider *****/
   var mainSwiper = new Swiper(".main-slider .swiper", {
     spaceBetween: 10,
