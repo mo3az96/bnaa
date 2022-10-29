@@ -40,7 +40,19 @@ $(document).ready(function () {
       },
     },
   });
-
+  /***** service slider *****/
+  var serviceSwiper = new Swiper(".service-single-imgs-slider .swiper", {
+    spaceBetween: 10,
+    loop: true,
+    speed: 500,
+    autoplay: {
+      delay: 5000,
+    },
+    pagination: {
+      el: ".service-single-imgs-slider .swiper-pagination",
+      clickable: true,
+    },
+  });
   $(".menu-btn").on("click", function (e) {
     $(".header-nav").fadeIn(300);
     $(".overlay").fadeIn(300);
